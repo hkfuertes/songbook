@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:3000
+
+###
+GET {{baseUrl}}/songs  HTTP/1.1
+content-type: application/json
+
+###
+POST {{baseUrl}}/songs  HTTP/1.1
+content-type: application/json
+
+{
+  "title": "A Dios den gracias los pueblos 2",
+  "author": "Juan Antonio Espinosa",
+  "album": null,
+  "text": "{start_of_chorus}\r\n([lam]A Dios den [SOL]gracias los [lam]pueblos,\r\na[rem]laben los pu[SOL]eblos a Di[lam]os.)(Bis)\r\n{end_of_chorus}\r\nQue [DO]Dios tenga pie[SOL]dad y nos ben[DO]diga, \r\nilu[lam]mine su [SOL]rostro entre no[lam]sotros, \r\nco[DO]nozca la [SOL]tierra tus ca[DO]minos,\r\n[lam]las na[SOL]ciones tu [MI]salva[lam]ción.\r\n\r\n{start_of_chorus}\r\nEstribillo\r\n{end_of_chorus}\r\nQue canten de alegría las naciones \r\nporque riges el mundo con justicia, \r\ncon rectitud riges los pueblos\r\ny gobiernas las naciones de la tierra.\r\n\r\n{start_of_chorus}\r\nEstribillo\r\n{end_of_chorus}\r\nLa tierra ha dado su fruto; \r\nnos bendice el Señor, nuestro Dios. \r\nQue Dios nos bendiga y que le amen\r\nlos confines todos de la tierra.\r\n\r\n{start_of_chorus}\r\nEstribillo\r\n{end_of_chorus}\n"
+}
